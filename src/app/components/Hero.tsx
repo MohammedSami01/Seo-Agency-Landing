@@ -34,11 +34,15 @@ const Hero = () => {
         {/* Right Column */}
         <div className="relative">
           {/* Woman image (Unsplash) */}
-          <img
-            src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80"
-            alt="Professional Woman"
-            className="w-full rounded-xl object-cover"
-          />
+          <div className="relative w-full h-96">
+            <Image
+              src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80"
+              alt="Professional Woman"
+              fill
+              className="rounded-xl object-cover"
+              priority
+            />
+          </div>
 
           {/* Search Results Overlay */}
           <div className="absolute top-4 right-4 bg-white shadow-lg rounded-xl w-64 p-4 z-20 border border-gray-200">

@@ -13,7 +13,7 @@ const Services = () => {
           </div>
           <div className="max-w-md text-center lg:text-left">
             <p className="text-gray-600 text-lg mb-4">
-              Let's delve into the significance of targeted traffic and how it's the key to boosting conversions.
+              Let&apos;s delve into the significance of targeted traffic and how it&apos;s the key to boosting conversions.
             </p>
             <button className="bg-lime-400 text-black px-6 py-2.5 rounded-full font-semibold hover:bg-lime-500 transition-colors shadow-md hover:shadow-lg">
               Get Started
@@ -33,7 +33,7 @@ const Services = () => {
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">On-Page Optimization</h3>
             <p className="text-gray-600 text-sm">
-              Optimize your website's on-page elements, including titles, meta descriptions, headers, and content, using these keywords naturally.
+              Optimize your website&apos;s on-page elements, including titles, meta descriptions, headers, and content, using these keywords naturally.
             </p>
           </div>
 
