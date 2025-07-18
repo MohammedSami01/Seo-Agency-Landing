@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Testimonials = () => {
   return (
@@ -19,9 +20,27 @@ const Testimonials = () => {
           {/* Trusted Advocate Showcase */}
           <div className="flex items-center gap-2 mt-10">
             <div className="flex -space-x-2">
-              <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="user1" className="w-8 h-8 rounded-full border-2 border-white" />
-              <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="user2" className="w-8 h-8 rounded-full border-2 border-white" />
-              <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="user3" className="w-8 h-8 rounded-full border-2 border-white" />
+              <Image 
+                src="https://randomuser.me/api/portraits/women/1.jpg" 
+                alt="user1" 
+                width={32} 
+                height={32} 
+                className="rounded-full border-2 border-white" 
+              />
+              <Image 
+                src="https://randomuser.me/api/portraits/men/2.jpg" 
+                alt="user2" 
+                width={32} 
+                height={32} 
+                className="rounded-full border-2 border-white" 
+              />
+              <Image 
+                src="https://randomuser.me/api/portraits/women/3.jpg" 
+                alt="user3" 
+                width={32} 
+                height={32} 
+                className="rounded-full border-2 border-white" 
+              />
             </div>
             <span className="text-sm text-gray-700">Trusted Advocate Showcase.</span>
           </div>
@@ -30,7 +49,7 @@ const Testimonials = () => {
         {/* Right Section: Featured Testimonial */}
         <div className="bg-gray-50 p-8 rounded-xl shadow-md">
           <p className="text-lg text-black mb-6 leading-relaxed">
-            "Choosing OptiRank was the best decision for our online business. They've proven to be true experts in the field of SEO, delivering results beyond our expectations."
+            &quot;Choosing OptiRank was the best decision for our online business. They&apos;ve proven to be true experts in the field of SEO, delivering results beyond our expectations.&quot;
           </p>
           <div className="border-t border-gray-300 pt-4 flex items-center justify-between">
             <div>

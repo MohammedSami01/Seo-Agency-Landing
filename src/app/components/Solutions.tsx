@@ -11,7 +11,7 @@ const Solutions = () => {
           </h2>
           <div className="max-w-md text-center lg:text-left">
             <p className="text-gray-600 text-lg mb-4">
-              In the fast-paced and competitive landscape of today's business world, having a clear vision is just the beginning.
+              In the fast-paced and competitive landscape of today&apos;s business world, having a clear vision is just the beginning.
             </p>
             <button className="bg-lime-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-lime-500 transition-colors shadow-md hover:shadow-lg">
               Get Started
