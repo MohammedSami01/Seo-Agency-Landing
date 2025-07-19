@@ -2,29 +2,29 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <section className="bg-white py-20 px-4">
+    <section className="bg-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
-        <div className="flex flex-col lg:flex-row justify-between items-center mb-16 gap-8">
+        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-12 sm:mb-16 gap-6 sm:gap-8">
           <div className="max-w-xl">
-            <h2 className="text-5xl font-semibold text-gray-900 mb-4 leading-tight">
-              Targeted Traffic <br className="hidden md:block" /> and Conversion
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-gray-900 mb-3 sm:mb-4 leading-tight">
+              Targeted Traffic <br className="hidden sm:block" /> and Conversion
             </h2>
           </div>
-          <div className="max-w-md text-center lg:text-left">
-            <p className="text-gray-600 text-lg mb-4">
+          <div className="max-w-md w-full sm:w-auto text-center lg:text-left">
+            <p className="text-gray-600 text-base sm:text-lg mb-4">
               Let&apos;s delve into the significance of targeted traffic and how it&apos;s the key to boosting conversions.
             </p>
-            <button className="bg-lime-400 text-black px-6 py-2.5 rounded-full font-semibold hover:bg-lime-500 transition-colors shadow-md hover:shadow-lg">
+            <button className="bg-lime-400 text-black px-5 sm:px-6 py-2 sm:py-2.5 rounded-full font-semibold hover:bg-lime-500 transition-colors shadow-md hover:shadow-lg w-full sm:w-auto">
               Get Started
             </button>
           </div>
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-6 lg:gap-8">
           {/* On-Page Optimization */}
-          <div className="bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-gray-50 rounded-xl p-5 sm:p-6 shadow-sm hover:shadow-md transition-shadow h-full">
             <div className="mb-4 text-purple-600">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
                   viewBox="0 0 24 24">
@@ -38,7 +38,7 @@ const Services = () => {
           </div>
 
           {/* Quality Content Creation */}
-          <div className="bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-gray-50 rounded-xl p-5 sm:p-6 shadow-sm hover:shadow-md transition-shadow h-full">
             <div className="mb-4 text-purple-600">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
                   viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ const Services = () => {
           </div>
 
           {/* Conversion Rate Optimization */}
-          <div className="bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-gray-50 rounded-xl p-5 sm:p-6 shadow-sm hover:shadow-md transition-shadow h-full">
             <div className="mb-4 text-purple-600">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
                   viewBox="0 0 24 24">
@@ -66,7 +66,7 @@ const Services = () => {
           </div>
 
           {/* Link Building */}
-          <div className="bg-gray-50 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-gray-50 rounded-xl p-5 sm:p-6 shadow-sm hover:shadow-md transition-shadow h-full">
             <div className="mb-4 text-purple-600">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2"
                   viewBox="0 0 24 24">

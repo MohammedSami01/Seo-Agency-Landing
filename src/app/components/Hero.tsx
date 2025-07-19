@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <div className="grid lg:grid-cols-2 gap-12 items-center">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-24">
+      <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Left Column */}
         <div>
-          <h1 className="text-5xl lg:text-6xl font-bold text-black leading-tight mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-black leading-tight mb-4 sm:mb-6">
             Dominating<br />Search<br />Algorithms
           </h1>
-          <p className="text-gray-600 text-base mb-6 max-w-lg">
+          <p className="text-gray-600 text-sm sm:text-base mb-6 max-w-lg">
             This comprehensive guide delves into the world of Dominating Search Algorithms,
             exploring their inner workings, applications, and impact on various fields.
           </p>
@@ -34,7 +34,7 @@ const Hero = () => {
         {/* Right Column */}
         <div className="relative">
           {/* Woman image (Unsplash) */}
-          <div className="relative w-full h-96">
+          <div className="relative w-full h-64 sm:h-80 md:h-96 mt-8 lg:mt-0">
             <Image
               src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=800&q=80"
               alt="Professional Woman"
@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
 
           {/* Search Results Overlay */}
-          <div className="absolute top-4 right-4 bg-white shadow-lg rounded-xl w-64 p-4 z-20 border border-gray-200">
+          <div className="absolute -top-4 sm:top-4 right-2 sm:right-4 bg-white shadow-lg rounded-xl w-48 sm:w-56 md:w-64 p-3 sm:p-4 z-20 border border-gray-200">
             <div className="text-sm font-medium mb-2 text-gray-800 flex items-center gap-2">
               <span className="bg-gray-100 rounded-full px-2 py-1 text-xs">1.</span>
               <span className="text-purple-600">Seo Landing Page</span>

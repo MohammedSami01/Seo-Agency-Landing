@@ -47,17 +47,17 @@ const Solutions = () => {
             ].map((item, i) => (
               <div
                 key={i}
-                className="group bg-white p-6 rounded-2xl shadow-sm transition-all hover:bg-[#6B46C1] hover:shadow-md"
+                className="group bg-white p-6 rounded-2xl shadow-sm transition-all hover:bg-[#6B46C1] hover:shadow-md active:bg-[#6B46C1] active:shadow-md"
               >
                 <div className="flex justify-between items-center">
-                  <span className="text-lg font-medium text-gray-900 group-hover:text-white transition-colors">
+                  <span className="text-lg font-medium text-gray-900 group-hover:text-white group-active:text-white transition-colors">
                     {item.title}
                   </span>
-                  <span className="text-xl text-gray-400 group-hover:text-white transition-transform transform group-hover:rotate-180">
+                  <span className="text-xl text-gray-400 group-hover:text-white group-active:text-white transition-transform transform group-hover:rotate-180 group-active:rotate-180">
                     ⌄
                   </span>
                 </div>
-                <p className="text-sm mt-2 text-gray-600 group-hover:text-white opacity-0 max-h-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-300 overflow-hidden">
+                <p className="text-sm mt-2 text-gray-600 group-hover:text-white group-active:text-white opacity-0 max-h-0 group-hover:max-h-40 group-active:max-h-40 group-hover:opacity-100 group-active:opacity-100 transition-all duration-300 overflow-hidden">
                   {item.description}
                 </p>
               </div>
